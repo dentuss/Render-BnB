@@ -1,5 +1,6 @@
 import "../../../css/DeNt/GuestPage/GuestPage.css"
 import GHeader from "./GHeader/GHeader";
+import GMain from "./GMain/GMain";
 
 function GuestPage() {
 
@@ -7,6 +8,7 @@ function GuestPage() {
 
         <div className = 'page-wrapper'>
             <GHeader></GHeader>
+            <GMain></GMain>
         </div>
     );
 }
