@@ -1,0 +1,58 @@
+.veri-page-wrapper {
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    background: #DDDBD7;
+}
+
+.veri-header-w {
+
+    width: 100%;
+    height: 11.1vh;
+
+    display: flex;
+    align-items: center;
+
+    border-bottom: 1px solid #211E1A;
+}
+
+.veri-h-logo-container {
+
+    width: 50%;
+    height: inherit;
+
+    display: flex;
+    padding-left: 3.646%;
+    
+}
+
+.veri-h-logo {
+
+    color: #211E1A;
+
+    font-family: "Inknut Antiqua";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+
+    margin-top: 3.75rem;
+}
+
+.veri-h-left-c {
+
+    width: 50%;
+    height: inherit;
+
+    display: flex;
+    padding-right: 4.688%;
+
+}
+
+.veri-h-l-txt-с {
+
+    width: 7.70%;
+    height: inherit;
+}
