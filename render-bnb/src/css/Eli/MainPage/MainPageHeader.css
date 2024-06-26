@@ -48,7 +48,7 @@
 
 
 
-.logo-container 
+.logo-container-main 
 {
 
     width: 37%;
@@ -58,7 +58,7 @@
     align-items: center;
     justify-content: left;
 }
-.logo 
+.logo-main
 {
 
     width: 10rem;

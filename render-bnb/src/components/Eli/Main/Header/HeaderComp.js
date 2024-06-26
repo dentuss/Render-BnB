@@ -14,7 +14,7 @@ const Header = () =>
     		<div className="header-wrap">
 
                 <div className = "top-row-header">
-                    <div className = 'logo-container'>
+                    <div className = 'logo-container-main'>
                         <Logo></Logo>
                     </div>
                     <div className = 'list-container'>
