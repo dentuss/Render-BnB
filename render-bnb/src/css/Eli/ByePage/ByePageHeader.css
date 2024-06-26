@@ -141,7 +141,7 @@
     padding-left: 0.5%;
 
 }
-.user-wrap 
+.userByePage-wrap
 {
 
     width: 4.5rem;
@@ -164,7 +164,7 @@
 
    
 }
-.burger-container 
+.burgerByePage-container 
 {
     width: 50%;
     height: inherit;
@@ -175,7 +175,7 @@
     align-items: center;
     justify-content: center;
 }
-.usericon-container 
+.usericonByePage-container 
 {
     width: 50%;
     height: inherit;

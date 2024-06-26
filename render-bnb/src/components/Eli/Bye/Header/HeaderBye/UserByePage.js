@@ -8,11 +8,11 @@ function User()
 {
     return(
 
-        <div className = 'user-wrap'>
-            <div className = 'burger-container'>
+        <div className = 'userByePage-wrap'>
+            <div className = 'burgerByePage-container'>
                 <FontAwesomeIcon icon={faBars} />
             </div>
-            <div className = 'usericon-container'>
+            <div className = 'usericonByePage-container'>
                 <FontAwesomeIcon icon={faUser} />
             </div>
         </div>

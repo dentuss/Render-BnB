@@ -13,10 +13,8 @@ import { Router, Route, useNavigate, Routes } from 'react-router-dom';
 
 function App() {
   return (
-      <Routes>
-        <Route path = "/" element={<MainPage />} />
-        <Route path = "/byepage" element={<ByePage />} />
-      </Routes>
+
+    <MainPage></MainPage>
   );
 }
 
