@@ -2,7 +2,17 @@ import "../../../../../css/DeNt/GuestPage/GuestPage.css"
 import pfp from "./Ellipse682.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from 'react-router-dom';
+
+
 function GLeftMain() {
+
+    const navigate = useNavigate();
+
+    function handleClick(event) {
+
+        navigate('render-bnb/src/components/DeNt/ProfEditPage/ProjEditPage.js')
+    }
 
     return(
 
@@ -49,9 +59,9 @@ function GLeftMain() {
                     </div>
                     <div className="left-main-bottom-box-section">
                         <div className="left-main-bottom-section-button">
-                            <div style={{marginLeft: 15}} className="left-section-bottom-box-text">
-                                Пройти Веріфікація
-                            </div>
+                                <div style={{marginLeft: 15}} className="left-section-bottom-box-text" onClick={handleClick}>
+                                    Пройти Веріфікація
+                                </div>
                         </div>
                     </div>
                 </div>

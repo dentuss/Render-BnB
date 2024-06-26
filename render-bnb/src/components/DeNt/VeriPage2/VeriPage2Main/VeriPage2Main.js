@@ -2,8 +2,15 @@ import "../../../../css/DeNt/VeriPage2/VeriPage2.css"
 import "../../../../css/DeNt/VeriPage1/VeriPage1.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircle } from "@fortawesome/free-regular-svg-icons"
+import { Route, useNavigate } from "react-router-dom"
 
 export const VeriPage2Main = () => {
+
+    const navigate = useNavigate();
+
+    function handleClick(event) {
+
+    }
 
     return(
 

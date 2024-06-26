@@ -1,8 +1,16 @@
 import "../../../../../../css/DeNt/VeriPage1/VeriPage1.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircle } from "@fortawesome/free-regular-svg-icons"
+import { useNavigate } from "react-router-dom"
 
 export const Veri1LeftMain = () => {
+
+    const navigate = useNavigate();
+
+    function handleClick(event) {
+
+        navigate("/veripage2")
+    }
 
     return(
 
@@ -32,7 +40,7 @@ export const Veri1LeftMain = () => {
                     </div>
                     <hr />
 
-                    <div className="v-1-l-main-content-button">
+                    <div className="v-1-l-main-content-button" onClick={handleClick}>
                         Продовжити
                     </div>
                 </div>
