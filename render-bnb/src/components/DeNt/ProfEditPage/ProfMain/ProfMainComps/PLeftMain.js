@@ -1,5 +1,5 @@
 import "../../../../../css/DeNt/ProfEditPage/ProfEditPage.css";
-import pfp from "../../ProfMain/pfp.png"
+import pfp from "../../../../../assets/imgs/DeNt//ProfEditPage/pfp.png"
 
 export const PLeftMain = () => {
 

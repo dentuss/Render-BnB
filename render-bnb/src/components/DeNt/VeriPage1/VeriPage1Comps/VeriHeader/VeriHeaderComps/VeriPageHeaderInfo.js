@@ -1,5 +1,4 @@
 import "../../../../../../css/DeNt/VeriPage1/VeriPage1.css"
-import pfp from "./Ellipse 686.png";
 
 export const VeriPageHeaderInfo = () => {
 

@@ -1,5 +1,5 @@
 import "../../../../../css/DeNt/GuestPage/GuestPage.css"
-import pfp from "./Ellipse682.png"
+import pfp from "../../../../../assets/imgs/DeNt/GuestPage/Ellipse682.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 function GLeftMain() {
