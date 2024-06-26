@@ -10,6 +10,7 @@ export const VeriPage2Main = () => {
 
     function handleClick(event) {
 
+        navigate('/veripage1');
     }
 
     return(
@@ -43,7 +44,7 @@ export const VeriPage2Main = () => {
                 <div className = "vp-2-main-content-box">
                     <hr />
                 </div>
-                <div className="last-row">
+                <div className="last-row" onClick={handleClick}>
                     <div>
                         &lt; Назад
                     </div>

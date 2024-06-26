@@ -8,7 +8,7 @@ export const PFooter = () => {
 
     return(
         
-        <div className="p-footer-wrapper">
+        <div className="p-footer-wrapper-g">
             <div className="p-f-left-c">
                 <div>
                     2022 HomeFU, Inc.

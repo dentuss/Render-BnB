@@ -1,6 +1,14 @@
 import "../../../../../../css/DeNt/VeriPage1/VeriPage1.css"
+import { useNavigate } from "react-router-dom";
 
 export const VeriPageHeaderInfo = () => {
+
+    const navigate = useNavigate();
+
+    function handleClick(event) {
+
+        navigate('/guestpage')
+    }
 
     return(
 
@@ -14,7 +22,7 @@ export const VeriPageHeaderInfo = () => {
             <div className = "vp-h-info-text">
                 Подорожі
             </div>
-            <div className = "vp-h-info-pfp" />
+            <div className = "vp-h-info-pfp" onClick={handleClick} />
         </div>
     );
 }
