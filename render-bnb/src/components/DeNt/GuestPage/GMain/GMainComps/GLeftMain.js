@@ -11,7 +11,7 @@ function GLeftMain() {
 
     function handleClick(event) {
 
-        navigate('render-bnb/src/components/DeNt/ProfEditPage/ProjEditPage.js')
+        navigate('/veripage1')
     }
 
     return(

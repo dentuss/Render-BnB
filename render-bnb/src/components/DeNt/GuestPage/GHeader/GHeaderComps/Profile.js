@@ -2,6 +2,7 @@ import "../../../../../css/DeNt/GuestPage/GuestPage.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from "@fortawesome/free-regular-svg-icons";
+import { useNavigate } from "react-router-dom";
 function Profile() {
 
     return(
