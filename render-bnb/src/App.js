@@ -6,14 +6,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { VeriPage1 } from './components/DeNt/VeriPage1/VeriPage1';
 import { VeriPage2 } from './components/DeNt/VeriPage2/VeriPage2';
 import { PayPage } from './components/DeNt/PayPage/PayPage';
+import MainPage from './components/Eli/Main/MainPage'
+import ByePage from './components/Eli/Bye/ByePage'
+
+import { Router, Route, useNavigate, Routes } from 'react-router-dom';
 
 function App() {
   return (
-      // <GuestPage></GuestPage>
-      // <ProfEditPage></ProfEditPage>
-      // <VeriPage1></VeriPage1>
-      // <VeriPage2></VeriPage2>
-      <PayPage></PayPage>
+      <Routes>
+        <Route path = "/" element={<MainPage />} />
+        <Route path = "/byepage" element={<ByePage />} />
+      </Routes>
   );
 }
 
