@@ -3,7 +3,7 @@ import '../../../../../css/Eli/MainPage/MainPageHeader.css';
 const Logo = () => 
 {
   	return (
-            <div className = "logo">
+            <div className = "logo-main">
                 HomeFU
             </div>
     );

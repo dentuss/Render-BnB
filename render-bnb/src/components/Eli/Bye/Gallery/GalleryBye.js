@@ -14,7 +14,6 @@ const Gallery = () =>
                     <div className = "photo-container">
                         <Photo/>
                     </div>
-                    
                 </div>
     );
 };
