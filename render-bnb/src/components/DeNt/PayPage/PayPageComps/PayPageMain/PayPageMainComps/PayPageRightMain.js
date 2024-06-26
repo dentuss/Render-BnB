@@ -24,6 +24,23 @@ export const PPRightMain = () => {
                         </div>
                     </div>
                 </div>
+                <div className="mid-sec">
+                    <div style = {{fontSize:20}}className="mid-sec-div">
+                        <b>Детальніше про ціну</b>
+                    </div>
+                    <div className="mid-sec-div">
+                        <span>$63,20 х 5 ночей</span>
+                        <span>$315,00</span>
+                    </div>
+                    <div className="mid-sec-div">
+                        <span>Плата за прибирання</span>
+                        <span>$20,00</span>
+                    </div>
+                </div>
+                <div className="bot-sec">
+                    <span>Усього</span>
+                    <span>$335,00</span>
+                </div>
             </div>
         </div>
     );
