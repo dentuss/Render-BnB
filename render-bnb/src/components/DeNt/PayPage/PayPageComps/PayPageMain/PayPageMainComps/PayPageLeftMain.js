@@ -50,8 +50,21 @@ export const PPLeftMain = () => {
                             </div>
                         </div>
                         <div style = {{borderBottom: "none"}}className = "pay-opt-var-cont">
-
+                            <div style = {{marginTop: 20, marginLeft: 20, fontWeight: 700}}>
+                                Оплата двома частинами
+                            </div>
+                            <div style = {{marginLeft: 20}}>
+                                $65,60 потрібно оплатити сьогодні, $262,40 - 22 груд. 2023р
+                            </div>
                         </div>
+                    </div>
+                </div>
+                <div className="pay-method-container">
+                    <div className="pay-line">
+                        Кредитна або дебетова картка
+                    </div>
+                    <div className="pay-line">
+                        <input name="cardnum" placeholder="Номер Картки" />
                     </div>
                 </div>
             </div>
