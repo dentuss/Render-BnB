@@ -293,6 +293,7 @@
     width: 60%;
     height: 100%;
 
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -363,6 +364,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    cursor: pointer;
     padding-left: 1;
 }

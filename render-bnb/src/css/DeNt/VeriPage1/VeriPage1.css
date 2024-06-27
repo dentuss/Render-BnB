@@ -41,6 +41,7 @@
 
     font-family: "Inknut Antiqua";
     font-size: 1.25rem;
+    cursor: pointer;
 }
 
 .vp-h-info-container {
@@ -185,6 +186,7 @@
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .veri-1-right-main-container {

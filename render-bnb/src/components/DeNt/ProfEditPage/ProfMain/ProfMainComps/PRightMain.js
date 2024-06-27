@@ -24,53 +24,53 @@ export const PRightMain = () => {
             <div className="p-r-main-form-c">
                     <div style = {{paddingRight:40}} className="p-r-main-form-l-r">
                         <div className="p-r-main-form-box">
-                            <input type="text" placeholder = "Навчальний Заклад" />
+                            <input id = 'uni' type="text" placeholder = "Навчальний Заклад" />
                             <hr></hr>
                         </div>
                         <div className="p-r-main-form-box">
-                            <input type="text" placeholder = "Місце проживання" />
+                            <input id = 'living' type="text" placeholder = "Місце проживання" />
                             <hr></hr>
                         </div>
                         <div className="p-r-main-form-box">
-                            <input type="text" placeholder = "Десятиліття, коли я народився/-лась" />
+                            <input id = 'bd' type="text" placeholder = "Десятиліття, коли я народився/-лась" />
                             <hr></hr>
                         </div>
                         <div className="p-r-main-form-box">
-                            <input type="text" placeholder = "Найбільше захоплення" />
+                            <input id = 'interest' type="text" placeholder = "Найбільше захоплення" />
                             <hr></hr>
                         </div>
                         <div className="p-r-main-form-box">
-                            <input type="text" placeholder = "Найбільш марні навички" />
+                            <input id = 'skill' type="text" placeholder = "Найбільш марні навички" />
                             <hr></hr>
                         </div>
                         <div className="p-r-main-form-box">
-                            <input type="text" placeholder = "На що я витрачаю багато часу" />
+                            <input id = 'time' type="text" placeholder = "На що я витрачаю багато часу" />
                             <hr></hr>
                         </div>
                     </div>
                     <div style = {{paddingLeft:40}}className="p-r-main-form-l-r">
                         <div className="p-r-main-form-box">
-                            <input type="text" placeholder = "Моя професія" />
+                            <input id = 'job' type="text" placeholder = "Моя професія" />
                             <hr></hr>
                         </div>
                         <div className="p-r-main-form-box">
-                            <input type="text" placeholder = "Мови, якими я володію" />
+                            <input id = 'lang' type="text" placeholder = "Мови, якими я володію" />
                             <hr></hr>
                         </div>
                         <div className="p-r-main-form-box">
-                            <input type="text" placeholder = "Улюблена пісня в старших класах" />
+                            <input id = 'song' type="text" placeholder = "Улюблена пісня в старших класах" />
                             <hr></hr>
                         </div>
                         <div className="p-r-main-form-box">
-                            <input type="text" placeholder = "Цікавий факт про мене" />
+                            <input id = 'fact' type="text" placeholder = "Цікавий факт про мене" />
                             <hr></hr>
                         </div>
                         <div className="p-r-main-form-box">
-                            <input type="text" placeholder = "Бажаний заголовок біографії" />
+                            <input id = 'bio' type="text" placeholder = "Бажаний заголовок біографії" />
                             <hr></hr>
                         </div>
                         <div className="p-r-main-form-box">
-                            <input type="text" placeholder = "Домашні тварини" />
+                            <input id = 'pets' type="text" placeholder = "Домашні тварини" />
                             <hr></hr>
                         </div>
                     </div>
