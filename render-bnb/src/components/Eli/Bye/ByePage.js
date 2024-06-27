@@ -1,19 +1,20 @@
+import React from 'react';
 import '../../../css/Eli/ByePage/ByePageHeader.css';
 
 import Header from './Header/HeaderBye';
 import Gallery from './Gallery/GalleryBye';
 import Info from './InfoCard/InfoBye';
+import Footer from '../Main/Footer/FooterComp';
+import MapComponent from './InfoCard/InfoBye/MapComponent';
 
-import Footer from '../Main/Footer/FooterComp'
-
-const ByePage = () => 
-{
+const ByePage = () => {
     return (
         <div className="ByePage-wrap">
-            <Header/>
-            <Gallery/>
-            <Info/>
-            <Footer/>
+            <Header />
+            <Gallery />
+            <Info />
+            <MapComponent /> {/* Вставляем компонент карты */}
+            <Footer />
         </div>
     );
 };
