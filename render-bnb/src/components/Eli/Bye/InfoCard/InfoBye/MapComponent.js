@@ -8,7 +8,7 @@ const mapStyles = {
 
 const defaultCenter = {
   lat: 46.486990,
-  lng: 30.730000,
+  lng: 30.728000,
 };
 
 const markerPosition = {
@@ -33,7 +33,7 @@ const MapComponent = () => {
     <LoadScript googleMapsApiKey="AIzaSyA9Z4dVtKqbPoTdOxV4Wb5YNcLz_Q2ZN0U">
       <GoogleMap
         mapContainerStyle={mapStyles}
-        zoom={18}
+        zoom={17}
         center={defaultCenter}
       >
 
