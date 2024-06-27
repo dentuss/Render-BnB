@@ -27,7 +27,6 @@ function GLeftMain() {
                             Ірина
                         </div>
                         <div className="left-main-top-section-guest-text">
-                            Гість
                         </div>
                     </div>
                 </div>
