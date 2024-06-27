@@ -26,8 +26,8 @@ const Card = ({ image, rating, dateRange, price, days, isChecked, index }) => {
             <div className="card-info">
                 <div className="location">
                     <span>Odesa, Ukraine</span>
-                    <div className="star-rating">
-                        <img src={star} alt="Star" />
+                    <div className="star-ratingMain">
+                        <img src={star} alt="Star" className='star-img-main' />
                         <span>{rating}</span>
                     </div>
                 </div>

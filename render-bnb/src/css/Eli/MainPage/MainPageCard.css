@@ -103,11 +103,16 @@
     margin-top: 0.5%;
 }
 
-.star-rating
+.star-ratingMain
 {
     font-size: 0.75rem;
 
     font-family: 'Nunito Sans';
+}
+.star-img-main
+{
+    width: 13px;
+    height: 13px;
 }
 .heart-icon 
 {
