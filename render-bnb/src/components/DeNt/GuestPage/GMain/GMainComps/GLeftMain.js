@@ -27,7 +27,6 @@ function GLeftMain() {
                             Ірина
                         </div>
                         <div className="left-main-top-section-guest-text">
-                            Гість
                         </div>
                     </div>
                 </div>
@@ -58,9 +57,9 @@ function GLeftMain() {
                         </div>
                     </div>
                     <div className="left-main-bottom-box-section">
-                        <div className="left-main-bottom-section-button">
-                                <div style={{marginLeft: 15}} className="left-section-bottom-box-text" onClick={handleClick}>
-                                    Пройти Веріфікація
+                        <div className="left-main-bottom-section-button" onClick={handleClick}>
+                                <div style={{marginLeft: 15}} className="left-section-bottom-box-text">
+                                    Веріфікація
                                 </div>
                         </div>
                     </div>

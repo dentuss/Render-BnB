@@ -1,6 +1,14 @@
 import "../../../../../css/DeNt/ProfEditPage/ProfEditPage.css";
+import { useNavigate } from "react-router-dom";         
 
 export const PRightMain = () => {
+
+    const navigate = useNavigate();
+
+    function handleClick(event) {
+
+        navigate('/guestpage');
+    }
 
     return(
 
@@ -66,7 +74,11 @@ export const PRightMain = () => {
                             <hr></hr>
                         </div>
                     </div>
-                </div>
+               </div>
+               <div className= 'form-button' onClick={handleClick}>
+                    Підтвердити
+               </div>
         </div>
+        
     );
 }

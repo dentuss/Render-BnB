@@ -12,6 +12,10 @@ export const VeriPage2Main = () => {
 
         navigate('/veripage1');
     }
+    function handleClickNext(event) {
+
+        navigate('/veripage3');
+    }
 
     return(
 
@@ -44,11 +48,11 @@ export const VeriPage2Main = () => {
                 <div className = "vp-2-main-content-box">
                     <hr />
                 </div>
-                <div className="last-row" onClick={handleClick}>
-                    <div>
+                <div className="last-row">
+                    <div onClick={handleClick}>
                         &lt; Назад
                     </div>
-                    <div style = {{justifySelf: 'right'}}className="v-1-l-main-content-button">
+                    <div style = {{justifySelf: 'right'}}className="v-1-l-main-content-button" onClick={handleClickNext}>
                         Продовжити
                     </div>
                 </div>
