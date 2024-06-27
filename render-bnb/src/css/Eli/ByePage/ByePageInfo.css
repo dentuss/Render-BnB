@@ -265,3 +265,84 @@
     width: 80%;
 
 }
+
+
+
+@media (max-width: 1400px) 
+{
+
+    .title-details
+    {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1400px) 
+{
+
+    .price-details
+    {
+       
+        font-size: 0.60rem;
+    }
+    .price-for-absol
+    {
+        margin-right: 30%;
+        width: 30%;
+    }
+    .reting-fot-absol
+    {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1300px) 
+{
+
+    .price-details
+    {
+       
+        font-size: 0.60rem;
+    }
+    .price-for-absol
+    {
+        font-size: 0.60rem;
+    }
+    .reting-fot-absol
+    {
+        font-size: 0.60rem;
+    }
+}
+
+@media (max-width: 1200px) 
+{
+
+    .price-details
+    {
+       
+        font-size: 0.60rem;
+    }
+    .price-for-absol
+    {
+        font-size: 0.60rem;
+
+        margin-right: 20%;
+    }
+    .reting-fot-absol
+    {
+
+        font-size: 0.60rem;
+
+    }
+}
+
+@media (max-width: 760px) 
+{
+
+    .info-wrap
+    {
+        flex-direction: column;
+
+    }
+   
+}
