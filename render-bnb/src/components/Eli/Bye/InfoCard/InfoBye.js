@@ -1,6 +1,7 @@
 import '../../../../css/Eli/ByePage/ByePageInfo.css';
 
 import Details from './InfoBye/Details';
+import MoreInfo from './InfoBye/MoreInfo';
 
 const Info = () => 
 {
@@ -9,6 +10,10 @@ const Info = () =>
             <div className="info-container">
                 <Details/>
             </div>
+            <div className="add-info-for-bye">
+                <MoreInfo/>
+            </div>
+            
         </div>
     );
 };

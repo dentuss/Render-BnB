@@ -20,7 +20,7 @@
 
 .abcol-block
 {
-    width: 85%;
+
     margin-left: 18%;
     position: relative;
     backdrop-filter: blur(4px);
@@ -173,6 +173,7 @@
     padding: 3%;
 
     text-align: center;
+
 }
 
 
@@ -314,6 +315,108 @@
     }
 }
 
+
+
+
+
+
+
+
+.bedroom-info-cont
+{
+    margin-top: 50px;
+    padding-bottom: 6%;
+    border-bottom: 1px solid #211E1A;
+
+}
+.title-bedroom
+{
+
+    font-size: 0.90rem;
+    font-weight: 600;
+
+    font-family: 'Nunito Sans';
+    color: #211e1a;
+
+    margin-bottom: 3%;
+}
+.bedroom-img
+{
+    width: 48%;
+    margin-bottom: 3%;
+}
+.add-info-beedroom
+{
+    margin-top: 1%;
+    font-size: 0.85rem; 
+    font-family: 'Nunito Sans';
+    color: #211e1a;
+}
+
+
+
+.facilities-container
+{
+    display: flex;
+    flex-direction: row;
+
+    color: #211E1A;
+    font-size: 0.90rem;
+    padding-bottom: 5%;
+  
+}
+
+.block1-facilities
+{
+    width: 65%;
+
+
+}
+.block2-facilities
+{
+    width: 50%;
+
+}
+
+.bedroom-list-img
+{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2%;
+}
+
+.bedroom-list
+{
+    margin-top: 2%;
+    margin-right: 2%;
+
+}
+.bloc-img-list
+{
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    margin-bottom: 2%;
+}
+
+
+.title-facil-list
+{
+
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Nunito Sans';
+    color: #211e1a;
+
+}
+
+
+
 @media (max-width: 1200px) 
 {
 
@@ -334,15 +437,29 @@
         font-size: 0.60rem;
 
     }
+    .facilities-container
+    {
+
+        flex-direction: column;
+    }
 }
 
-@media (max-width: 760px) 
+
+
+@media (max-width: 900px) 
 {
 
     .info-wrap
     {
         flex-direction: column;
-
     }
+    .abcol-block
+    {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 5%;
+    }
+
    
 }
+

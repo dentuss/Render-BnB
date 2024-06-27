@@ -4,6 +4,8 @@ import Header from './Header/HeaderBye';
 import Gallery from './Gallery/GalleryBye';
 import Info from './InfoCard/InfoBye';
 
+import Footer from '../Main/Footer/FooterComp'
+
 const ByePage = () => 
 {
     return (
@@ -11,6 +13,7 @@ const ByePage = () =>
             <Header/>
             <Gallery/>
             <Info/>
+            <Footer/>
         </div>
     );
 };

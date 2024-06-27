@@ -1,0 +1,52 @@
+.add-info-for-bye
+{
+    margin-left: 0.7%;
+    border-top: 1px solid #211E1A;
+    padding-top: 5%;
+}
+.rev-cont
+{
+
+    width: 100%;
+    display: flex;
+}
+.col1-rev
+{
+    width: 50%;
+    font-size: 0.90rem;
+    font-family: 'Nunito Sans';
+    color: #211e1a;
+
+}
+.col2-rev
+{
+    width: 45%;
+    margin-left: 5%;
+    font-size: 0.90rem;
+    font-family: 'Nunito Sans';
+    color: #211e1a;
+}
+.rev-block
+{
+    align-items: center;
+    display: flex;
+    margin-bottom: 1%;
+
+}
+.name-rev
+{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 2%;
+}
+
+.num-rev
+{
+    height: 130px;
+}
+
+.rev
+{
+    width: 40px;
+    height: 40px;
+}
