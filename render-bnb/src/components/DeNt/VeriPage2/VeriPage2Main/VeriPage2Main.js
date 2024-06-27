@@ -3,6 +3,8 @@ import "../../../../css/DeNt/VeriPage1/VeriPage1.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircle } from "@fortawesome/free-regular-svg-icons"
 import { Route, useNavigate } from "react-router-dom"
+import { useState } from "react"
+import { faCircle as FaCirclFat } from "@fortawesome/free-solid-svg-icons"
 
 export const VeriPage2Main = () => {
 
@@ -15,6 +17,45 @@ export const VeriPage2Main = () => {
     function handleClickNext(event) {
 
         navigate('/veripage3');
+    }
+    const [icon1, setIcon1] = useState(FaCirclFat);
+
+    const changeIcon1 = () => {
+
+        if(icon1 !== FaCirclFat) {
+
+            setIcon1(FaCirclFat);
+        }
+        else {
+
+            setIcon1(faCircle);
+        }
+    }
+    const [icon2, setIcon2] = useState(faCircle);
+
+    const changeIcon2 = () => {
+
+        if(icon2 !== faCircle) {
+
+            setIcon2(faCircle);
+        }
+        else {
+
+            setIcon2(FaCirclFat);
+        }
+    }
+
+    const [icon3, setIcon3] = useState(faCircle);
+    const changeIcon3 = () => {
+
+        if(icon3 !== faCircle) {
+
+            setIcon3(faCircle);
+        }
+        else {
+
+            setIcon3(FaCirclFat);
+        }
     }
 
     return(
@@ -31,15 +72,15 @@ export const VeriPage2Main = () => {
                 </div>
                 <div style = {{gap: 35}} className = "vp-2-main-content-box">
                     <div>
-                        Посвідчення водія <FontAwesomeIcon style = {{marginLeft: 310}} icon={faCircle} />
+                        Посвідчення водія <FontAwesomeIcon style = {{marginLeft: 310}} icon={icon1} onClick={changeIcon1}/>
                     </div>
                     <hr />
                     <div>
-                        Паспорт <FontAwesomeIcon style = {{marginLeft: 368}} icon={faCircle} />
+                        Паспорт <FontAwesomeIcon style = {{marginLeft: 368}} icon={icon2} onClick={changeIcon2}/>
                     </div>
                     <hr />
                     <div>
-                        Посвідчення особи <FontAwesomeIcon style = {{marginLeft: 307.5}} icon={faCircle} />
+                        Посвідчення особи <FontAwesomeIcon style = {{marginLeft: 307.5}} icon={icon3} onClick={changeIcon3}/>
                     </div>
                 </div>
                 <div style = {{padding: 10, fontSize: 15}} className = "vp-2-main-content-box">

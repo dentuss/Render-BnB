@@ -2,6 +2,8 @@ import "../../../../../../css/DeNt/PayPage/PayPage.css"
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-regular-svg-icons";
+import { faCircle as FaCirclFat} from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 export const PPLeftMain = () => {
 
     const navigate = useNavigate();
@@ -9,6 +11,33 @@ export const PPLeftMain = () => {
     function handleClick(event) {
 
         navigate('/');
+    }
+
+    const [icon1, setIcon1] = useState(FaCirclFat);
+
+    const changeIcon1 = () => {
+
+        if(icon1 !== FaCirclFat) {
+
+            setIcon1(FaCirclFat);
+        }
+        else {
+
+            setIcon1(faCircle);
+        }
+    }
+    const [icon2, setIcon2] = useState(faCircle);
+
+    const changeIcon2 = () => {
+
+        if(icon2 !== faCircle) {
+
+            setIcon2(faCircle);
+        }
+        else {
+
+            setIcon2(FaCirclFat);
+        }
     }
 
     return(
@@ -52,7 +81,7 @@ export const PPLeftMain = () => {
                     <div className = "pay-opt-container">
                         <div className = "pay-opt-var-cont">
                             <div style = {{marginTop: 20, marginLeft: 20, fontWeight: 700}}>
-                                Оплатити в повному обсязі <FontAwesomeIcon style = {{marginLeft: 300}} icon= {faCircle}/>
+                                Оплатити в повному обсязі <FontAwesomeIcon style = {{marginLeft: 300}} icon= {icon1} onClick={changeIcon1}/>
                             </div>
                             <div style = {{marginLeft: 20}}>
                                 Сплатіть усю суму ($335,00) одразу.
@@ -60,7 +89,7 @@ export const PPLeftMain = () => {
                         </div>
                         <div style = {{borderBottom: "none"}}className = "pay-opt-var-cont">
                             <div style = {{marginTop: 20, marginLeft: 20, fontWeight: 700}}>
-                                Оплата двома частинами <FontAwesomeIcon style = {{marginLeft: 312}} icon={faCircle} />
+                                Оплата двома частинами <FontAwesomeIcon style = {{marginLeft: 312}} icon={icon2} onClick={changeIcon2}/>
                             </div>
                             <div style = {{marginLeft: 20}}>
                                 $65,60 потрібно оплатити сьогодні, $262,40 - 22 груд. 2023р
