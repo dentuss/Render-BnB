@@ -7,8 +7,8 @@ import { faInstagram } from  "@fortawesome/free-brands-svg-icons";
 const Bottom = () => 
 {
     return (
-        <div className="p-footer-wrapper">
-        <div className="p-f-left-c">
+        <div className="p-footer-wrapperMain">
+        <div className="p-f-left-cMain">
             <div>
                 2022 HomeFU, Inc.
             </div>
@@ -22,7 +22,7 @@ const Bottom = () =>
                 Мапа сайту
             </div>
         </div>
-        <div className="p-f-right-c">
+        <div className="p-f-right-cMain">
             <div>
                 <FontAwesomeIcon icon={faGlobe} /> Українська (UA)
             </div>

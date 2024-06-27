@@ -13,8 +13,9 @@ import { Router, Route, useNavigate, Routes } from 'react-router-dom';
 
 function App() {
   return (
-      <Routes>
-        <Route path = "/" element={<PayPage />} />
+
+    <Routes>
+        <Route path = "/" element={<MainPage />} />
         <Route path = "/byepage" element={<ByePage />} />
         <Route path='/guestpage' element={<GuestPage />} />
         <Route path='/veripage1' element={<VeriPage1 />} />

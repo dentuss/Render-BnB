@@ -95,7 +95,7 @@
 
 .linkByePage-container 
 {
-    width: 16%;
+    width: 17%;
 
     padding-left: 0.3%;
 
@@ -273,14 +273,14 @@
 
     }
 
-    .search
+    .searchByePage
     {
         margin-left: 0%;
     }
     .linkByePage-container
     {
         padding-left: 5%;
-        width: 18%;
+        width: 20%;
     }
 }
 
@@ -303,12 +303,12 @@
     .linkByePage-container
     {
         padding-left: 10%;
-        width: 25%;
+        width: 27%;
 
     }
 }
 
-@media (max-width: 840px) 
+@media (max-width: 900px) 
 {
 
     .linkByePage-container
@@ -341,7 +341,7 @@
 
 @media (max-width: 500px) 
 {
-    .search
+    .searchByePage
     {
         display: none;
     }
