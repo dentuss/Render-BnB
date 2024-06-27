@@ -3,8 +3,16 @@ import '../../../../../css/Eli/ByePage/ByePageInfo.css';
 import ilona from '../../../../../img/Eli/Gallery/Ilona.png';
 import star from '../../../../../img/Eli/Card/star.png';
 
+import { useNavigate } from 'react-router-dom';
+
 const Details = () => 
 {
+
+    const navigate = useNavigate();
+    function handleClickPay(event) {
+
+        navigate('/paypage');
+    }
     return (
         <div className="info-wrap">
             <div className="info-container">
@@ -62,7 +70,7 @@ const Details = () =>
                         </div>
                     </div>
 
-                    <div className= "but-bye">Заюронювати</div>
+                    <div className= "but-bye" onClick={handleClickPay}>Заюронювати</div>
                     <div className= "nobye">Поки що ви нічого не платите</div>
 
                     <div className= "bye">
