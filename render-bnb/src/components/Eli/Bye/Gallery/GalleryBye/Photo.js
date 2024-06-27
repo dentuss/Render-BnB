@@ -2,14 +2,17 @@ import React, { useState } from 'react';
 import '../../../../../css/Eli/ByePage/ByePageGallery.css';
 
 const imagesContext = require.context('../../../../../img/Eli/Photo', false, /\.(png|jpe?g|svg)$/);
-const images = imagesContext.keys().map((key) => {
+const images = imagesContext.keys().map((key) => 
+{
     return { path: imagesContext(key), name: key };
 });
 
 const sortedImages = images
-    .map(image => {
+    .map(image => 
+    {
         const match = image.name.match(/Photo(\d+)/);
-        if (match) {
+        if (match) 
+        {
             return { ...image, number: parseInt(match[1], 10) };
         }
         return null;
@@ -17,14 +20,17 @@ const sortedImages = images
     .filter(image => image !== null)
     .sort((a, b) => a.number - b.number);
 
-const Photo = () => {
+const Photo = () => 
+{
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const nextImage = () => {
+    const nextImage = () => 
+    {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % sortedImages.length);
     };
 
-    const prevImage = () => {
+    const prevImage = () => 
+    {
         setCurrentIndex((prevIndex) =>
             (prevIndex - 1 + sortedImages.length) % sortedImages.length
         );

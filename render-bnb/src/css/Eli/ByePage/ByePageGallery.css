@@ -80,16 +80,16 @@
 
 .info-title
 {
-    width: 60%;
+    width: 70%;
+    margin-left: 0.5%;
+
 }
 
 .star-rating
 {
     font-size: 0.75rem;
     display: flex;
-
     align-items: center;
-
 
 }
 
@@ -98,8 +98,9 @@
     width: 13px;
     height: 13px;
 
-    margin-right: 0.5%;
+    margin-right: 0.9%;
     text-align: center;
+    margin-top: 10%;
 }
 
 
@@ -177,84 +178,87 @@
 
 
 
-.photo-container {
+.photo-container 
+{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px;
-}
+    padding-left: 5px;
 
-.photo-grid {
+}
+.photo-grid 
+{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom:0px;
 }
-
-.photo-item {
+.photo-item 
+{
     overflow: hidden;
     border-radius: 10px;
 }
-
-.photo-item img {
+.photo-item img 
+{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.photo-item.large {
+.photo-item.large 
+{
     grid-column: span 2;
     grid-row: span 2;
 }
 
-.photo-item.small {
+.photo-item.small 
+{
     grid-column: span 1;
     grid-row: span 1;
 }
 
-.photo-slider {
+.photo-slider 
+{
     display: none;
     position: relative;
     justify-content: center;
     align-items: center;
 }
-
-.photo-slider img {
-    width: 100%;
-    max-width: 900px;
+.photo-slider img 
+{
+    width: 80%;
     height: auto;
     border-radius: 10px;
 }
-
-.arrow {
+.arrow 
+{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
+    background: #6f6558ce;
+    color: #DDDBD7;
     border: none;
     padding: 10px;
     cursor: pointer;
     z-index: 1;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
-.left-arrow {
-    left: 10px;
-}
+.left-arrow { left: 10px; }
 
-.right-arrow {
-    right: 10px;
-}
+.right-arrow { right: 10px; }
 
-@media (max-width: 900px) {
-    .photo-grid {
-        display: none;
-    }
+@media (max-width: 900px) 
+{
+    .photo-grid { display: none; }
 
-    .photo-slider {
-        display: flex;
-    }
+    .photo-slider { display: flex; }
 }
