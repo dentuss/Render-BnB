@@ -18,20 +18,18 @@ const markerPosition = {
   lng: 30.728000,
 };
 
-const MapComponent = () => 
-{
+const MapComponent = () => {
   const [selectedPlace, setSelectedPlace] = useState(null);
 
-  const handleMarkerClick = () => 
-  {
+  const handleMarkerClick = () => {
     setSelectedPlace(markerPosition);
   };
 
   return (
-    <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
+    <LoadScript googleMapsApiKey="AIzaSyA9Z4dVtKqbPoTdOxV4Wb5YNcLz_Q2ZN0U">
       <GoogleMap
         mapContainerStyle={mapStyles}
-        zoom={17}
+        zoom={18}
         center={defaultCenter}
       >
         <Marker
