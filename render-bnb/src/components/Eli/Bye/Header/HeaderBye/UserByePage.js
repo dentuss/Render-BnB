@@ -2,8 +2,7 @@ import '../../../../../css/Eli/ByePage/ByePageHeader.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { faUser } from "@fortawesome/free-regular-svg-icons";
-
+import irina from '../../../../../img/Eli/Gallery/irina.png';
 function User() 
 {
     return(
@@ -13,7 +12,7 @@ function User()
                 <FontAwesomeIcon icon={faBars} />
             </div>
             <div className = 'usericonByePage-container'>
-                <FontAwesomeIcon icon={faUser} />
+                <img src={irina} alt="Star" className="irina-userByePage" />
             </div>
         </div>
     );

@@ -416,7 +416,6 @@
 }
 
 
-
 @media (max-width: 1200px) 
 {
 
@@ -463,3 +462,11 @@
    
 }
 
+@media (max-width: 1400px) 
+{
+
+    .bloc-img-list
+    {
+        font-size: 0.60rem;
+    }
+}

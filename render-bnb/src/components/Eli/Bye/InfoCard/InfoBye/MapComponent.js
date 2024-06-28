@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React, { useState } from 'react';
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api';
 
 const mapStyles = {
@@ -7,51 +7,38 @@ const mapStyles = {
   marginLeft: "20%"
 };
 
+// Координаты для Садовой 3
 const defaultCenter = {
   lat: 46.486990,
   lng: 30.728000,
 };
 
 const markerPosition = {
-    lat: 46.486000,
-    lng: 30.730000,
+  lat: 46.486940,
+  lng: 30.728000,
 };
 
-
-const customIcon = {
-  url: "https://maps.google.com/mapfiles/kml/shapes/flag.png", 
-  scaledSize: { width: 50, height: 50 }, 
-};
-
-const MapComponent = () => {
+const MapComponent = () => 
+{
   const [selectedPlace, setSelectedPlace] = useState(null);
 
-  const handleMarkerClick = () => {
+  const handleMarkerClick = () => 
+  {
     setSelectedPlace(markerPosition);
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyA9Z4dVtKqbPoTdOxV4Wb5YNcLz_Q2ZN0U">
+    <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
       <GoogleMap
         mapContainerStyle={mapStyles}
         zoom={17}
         center={defaultCenter}
       >
-
-<gmp-advanced-marker
-    position="37.4220656,-122.0840897"
-    title="Mountain View, CA"
-  ></gmp-advanced-marker>
-  <gmp-advanced-marker
-    position="47.648994,-122.3503845"
-    title="Seattle, WA"
-  ></gmp-advanced-marker>
         <Marker
           position={markerPosition}
-          icon={customIcon}
           onClick={handleMarkerClick}
           label={{
-            text: 'Пункт назначения',
+            text: '!',
             color: 'red',
             fontWeight: 'bold',
             fontSize: '16px',
@@ -63,8 +50,8 @@ const MapComponent = () => {
             onCloseClick={() => setSelectedPlace(null)}
           >
             <div>
-              <h4>Пункт назначения: Садовая 3</h4>
-              <p>Одесса, Украина</p>
+              <h4>Компьютерная Академия Шаг</h4>
+              <p>Садовая 3, Одесса, Украина</p>
             </div>
           </InfoWindow>
         )}

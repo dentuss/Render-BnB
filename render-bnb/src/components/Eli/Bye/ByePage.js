@@ -13,7 +13,7 @@ const ByePage = () => {
             <Header />
             <Gallery />
             <Info />
-            <MapComponent /> {/* Вставляем компонент карты */}
+            <MapComponent />
             <Footer />
         </div>
     );

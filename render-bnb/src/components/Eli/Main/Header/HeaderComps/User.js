@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 
+import irina from '../../../../../img/Eli/Gallery/irina.png';
+
 import { useNavigate } from 'react-router-dom';
 
 function User() 
@@ -22,7 +24,7 @@ function User()
                 <FontAwesomeIcon icon={faBars} />
             </div>
             <div className = 'usericon-container'>
-                <FontAwesomeIcon icon={faUser} />
+                <img src={irina} alt="Star" className="irina-user" />
             </div>
         </div>
     );

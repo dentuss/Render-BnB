@@ -193,7 +193,6 @@
 }
 .usericon-container 
 {
-    
     width: 50%;
     height: inherit;
 
@@ -204,6 +203,11 @@
     font-size: 1.1rem;
     margin-right: 0.5rem;
 
+}
+.irina-user
+{
+    width: 20px;
+    height: 20px;
 }
 
 

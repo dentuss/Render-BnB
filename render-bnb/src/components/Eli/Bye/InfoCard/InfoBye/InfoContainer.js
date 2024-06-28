@@ -93,7 +93,7 @@ const InfoContainer = () => {
                             <div className='bedroom-list'>
                                 <img src={bedroom7} alt="Bedroom" className="bedroom-list-img" />
                             </div>
-                            <div>Телевізор HDTV з 32 -дюймовим екраном та стандартне кабельне</div> 
+                            <div>Телевізор HDTV 32 -дюймовий</div> 
                         </div>
                         <div className='bloc-img-list'>
                             <div className='bedroom-list'>
